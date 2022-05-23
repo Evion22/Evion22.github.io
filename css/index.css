@@ -1,0 +1,77 @@
+body{
+    background-color: antiquewhite;
+    
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+}
+
+h1{
+    font-size: 1rem;
+}
+.container{
+    text-align: center;
+}
+
+
+.nama{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    font-size: 1rem;
+    text-decoration: none;
+    border: solid;
+    border-color: black;
+    box-shadow: rgb(0, 0, 0) 12px 12px 0px 0px;
+    border-radius: 50px;
+    
+}
+
+
+.daftar{
+    display: block;
+    max-width: 700px;
+    width: auto;
+    margin: 30px auto;
+}
+
+
+
+.merk{
+    color: darkslategray;
+}
+
+.nama:hover{
+    text-decoration: underline;
+    background-color: rgb(231, 243, 161);
+}
+
+#link{
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    #logo{
+        width: 150px;
+        height: auto;
+    }
+
+    #link{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    background-color:rgb(207, 211, 157) ;
+    bottom: 0px;
+    text-align: center;
+    left: 0px;
+}
